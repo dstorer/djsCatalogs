@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+  xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
+ <DESCRIPTION>
+   VizieR Astronomical Server vizier.cfa.harvard.edu
+    Date: 2021-03-29T15:28:03 [V1.99+ (14-Oct-2013)]
+   Explanations and Statistics of UCDs:			See LINK below
+   In case of problem, please report to:	cds-question@unistra.fr
+   In this version, NULL integer columns are written as an empty string
+   &lt;TD&gt;&lt;/TD&gt;, explicitely possible from VOTable-1.3
+ </DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<INFO ID="VERSION" name="votable-version" value="1.99+ (14-Oct-2013)"/>
+<INFO ID="Ref" name="-ref" value="VIZ6061f15815141"/>
+<INFO ID="MaxTuples" name="-out.max" value="50"/>
+<INFO name="queryParameters" value="63">
+-oc.form=dec
+-out.max=50
+-out.add=_r
+-out.add=_RAJ,_DEJ
+-sort=_r
+-order=I
+-out.src=VIII/102/gleamgal
+-nav=cat:VIII/102&amp;tab:{VIII/102/gleamgal}&amp;key:kw.Wavelength=Radio&amp;key:source=hurley-walker&amp;HTTPPRM:&amp;&amp;-ref=VIZ6061f15815141&amp;-out.max=50&amp;-out.form=HTML Table&amp;-out.add=_r&amp;-out.add=_RAJ,_DEJ&amp;-sort=_r&amp;-oc.form=sexa&amp;-c.eq=J2000&amp;-c.r=  2&amp;-c.u=arcmin&amp;-c.geom=r&amp;-order=I&amp;-out.orig=standard&amp;-out=GLEAM&amp;-out=RAJ2000&amp;-out=DEJ2000&amp;-out=Fpwide&amp;-out=Fintwide&amp;-out=eabsFpct&amp;-out=efitFpct&amp;-out=Fp076&amp;-out=Fint076&amp;-out=Fp084&amp;-out=Fint084&amp;-out=Fp092&amp;-out=Fint092&amp;-out=Fp099&amp;-out=Fint099&amp;-out=Fp107&amp;-out=Fint107&amp;-out=Fp115&amp;-out=Fint115&amp;-out=Fp122&amp;-out=Fint122&amp;-out=Fp130&amp;-out=Fint130&amp;-out=Fp143&amp;-out=Fint143&amp;-out=Fp151&amp;-out=Fint151&amp;-out=Fp158&amp;-out=Fint158&amp;-out=Fp166&amp;-out=Fint166&amp;-out=Fp174&amp;-out=Fint174&amp;-out=Fp181&amp;-out=Fint181&amp;-out=Fp189&amp;-out=Fint189&amp;-out=Fp197&amp;-out=Fint197&amp;-out=Fp204&amp;-out=Fint204&amp;-out=Fp212&amp;-out=Fint212&amp;-out=Fp220&amp;-out=Fint220&amp;-out=Fp227&amp;-out=Fint227&amp;-out=alpha&amp;-out=Fintfit200&amp;-file=.&amp;-meta.ucd=2&amp;-meta=1&amp;-meta.foot=1&amp;-usenav=1&amp;-bmark=POST&amp;-out.src=VIII/102/gleamgal
+-c.eq=J2000
+-c.r=  2
+-c.u=arcmin
+-c.geom=r
+-source=VIII/102/gleamgal
+-out.orig=standard
+-out=GLEAM
+-out=RAJ2000
+-out=DEJ2000
+-out=Fpwide
+-out=Fintwide
+-out=eabsFpct
+-out=efitFpct
+-out=Fp076
+-out=Fint076
+-out=Fp084
+-out=Fint084
+-out=Fp092
+-out=Fint092
+-out=Fp099
+-out=Fint099
+-out=Fp107
+-out=Fint107
+-out=Fp115
+-out=Fint115
+-out=Fp122
+-out=Fint122
+-out=Fp130
+-out=Fint130
+-out=Fp143
+-out=Fint143
+-out=Fp151
+-out=Fint151
+-out=Fp158
+-out=Fint158
+-out=Fp166
+-out=Fint166
+-out=Fp174
+-out=Fint174
+-out=Fp181
+-out=Fint181
+-out=Fp189
+-out=Fint189
+-out=Fp197
+-out=Fint197
+-out=Fp204
+-out=Fint204
+-out=Fp212
+-out=Fint212
+-out=Fp220
+-out=Fint220
+-out=Fp227
+-out=Fint227
+-out=alpha
+-out=Fintfit200
+</INFO>
+
+<!--
+Execution Reports
+ -->
+
+<RESOURCE ID="yCat_8102" name="VIII/102">
+  <DESCRIPTION>GLEAM II. Galactic plane (Hurley-Walker+, 2019)</DESCRIPTION>
+  <COOSYS ID="J2000" system="eq_FK5" equinox="J2000"/>
+  <TABLE ID="VIII_102_gleamgal" name="VIII/102/gleamgal">
+    <DESCRIPTION>GLEAM Galactic plane catalog</DESCRIPTION>
+<!-- GLEAM Galactic plane catalog (\originalcolumnnames) -->
+
+    <!-- Definitions of GROUPs and FIELDs -->
+
+<!-- +++No column could be found to attach a LINK in table: VIII/102/gleamgal -->
+    <FIELD name="_RAJ2000" ucd="pos.eq.ra" ref="J2000" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_EQ_RA" -->
+      <DESCRIPTION>Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="_DEJ2000" ucd="pos.eq.dec" ref="J2000" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_EQ_DEC" -->
+      <DESCRIPTION>Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="GLEAM" ucd="meta.id;meta.main" datatype="char" arraysize="14"><!-- ucd="ID_MAIN" -->
+      <DESCRIPTION>GLEAM name (JHHMMSS+DDMMSS) (Name)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="RAJ2000" ucd="pos.eq.ra" ref="J2000" datatype="double" width="10" precision="6" unit="deg"><!-- ucd="POS_EQ_RA_OTHER" -->
+      <DESCRIPTION>Right Ascension J2000 (RAJ2000)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="DEJ2000" ucd="pos.eq.dec" ref="J2000" datatype="double" width="10" precision="6" unit="deg"><!-- ucd="POS_EQ_DEC_OTHER" -->
+      <DESCRIPTION>Declination J2000 (DEJ2000)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Fpwide" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_UNDEF" -->
+      <DESCRIPTION>Peak flux in wide (170-231MHz) image (peak_flux_wide)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Fintwide" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_UNDEF" -->
+      <DESCRIPTION>Integrated flux in wide (170-231MHz) image (int_flux_wide)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="eabsFpct" ucd="stat.error" datatype="short" width="2" unit="%"><!-- ucd="ERROR" -->
+      <DESCRIPTION>Percent error in absolute flux scale - all frequencies (err_abs_flux_pct)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="efitFpct" ucd="stat.error" datatype="unsignedByte" width="1" unit="%"><!-- ucd="ERROR" -->
+      <DESCRIPTION>Percent error on internal flux scale - all frequencies (err_fit_flux_pct)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Fp076" ucd="phot.flux.density" datatype="double" width="11" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_87M" -->
+      <DESCRIPTION>? Peak flux in 072-080MHz image (peak_flux_076)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint076" ucd="phot.flux" datatype="double" width="11" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_87M" -->
+      <DESCRIPTION>? Integrated flux in 072-080MHz image (int_flux_076)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp084" ucd="phot.flux.density" datatype="double" width="11" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_87M" -->
+      <DESCRIPTION>? Peak flux in 080-088MHz image (peak_flux_084)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint084" ucd="phot.flux" datatype="double" width="11" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_87M" -->
+      <DESCRIPTION>? Integrated flux in 080-088MHz image (int_flux_084)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp092" ucd="phot.flux.density" datatype="double" width="11" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_87M" -->
+      <DESCRIPTION>? Peak flux in 088-095MHz image (peak_flux_092)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint092" ucd="phot.flux" datatype="double" width="11" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_87M" -->
+      <DESCRIPTION>? Integrated flux in 088-095MHz image (int_flux_092)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp099" ucd="phot.flux.density" datatype="double" width="11" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_87M" -->
+      <DESCRIPTION>? Peak flux in 095-103MHz image (peak_flux_099)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint099" ucd="phot.flux" datatype="double" width="11" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_87M" -->
+      <DESCRIPTION>? Integrated flux in 095-103MHz image (int_flux_099)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp107" ucd="phot.flux.density" datatype="double" width="11" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_110M" -->
+      <DESCRIPTION>? Peak flux in 103-111MHz image (peak_flux_107)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint107" ucd="phot.flux" datatype="double" width="11" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_110M" -->
+      <DESCRIPTION>? Integrated flux in 103-111MHz image (int_flux_107)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp115" ucd="phot.flux.density" datatype="double" width="11" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_110M" -->
+      <DESCRIPTION>? Peak flux in 111-118MHz image (peak_flux_115)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint115" ucd="phot.flux" datatype="double" width="11" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_110M" -->
+      <DESCRIPTION>? Integrated flux in 111-118MHz image (int_flux_115)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp122" ucd="phot.flux.density" datatype="double" width="11" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_110M" -->
+      <DESCRIPTION>? Peak flux in 118-126MHz image (peak_flux_122)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint122" ucd="phot.flux" datatype="double" width="11" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_110M" -->
+      <DESCRIPTION>? Integrated flux in 118-126MHz image (int_flux_122)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp130" ucd="phot.flux.density" datatype="double" width="11" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_150M" -->
+      <DESCRIPTION>? Peak flux in 126-134MHz image (peak_flux_130)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint130" ucd="phot.flux" datatype="double" width="11" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_150M" -->
+      <DESCRIPTION>? Integrated flux in 126-134MHz image (int_flux_130)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp143" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_150M" -->
+      <DESCRIPTION>? Peak flux in 139-147MHz image (peak_flux_143)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint143" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_150M" -->
+      <DESCRIPTION>? Integrated flux in 139-147MHz image (int_flux_143)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp151" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_150M" -->
+      <DESCRIPTION>? Peak flux in 147-154MHz image (peak_flux_151)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint151" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_150M" -->
+      <DESCRIPTION>? Integrated flux in 147-154MHz image (int_flux_151)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp158" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_150M" -->
+      <DESCRIPTION>? Peak flux in 154-162MHz image (peak_flux_158)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint158" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_150M" -->
+      <DESCRIPTION>? Integrated flux in 154-162MHz image (int_flux_158)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp166" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Peak flux in 162-170MHz image (peak_flux_166)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint166" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Integrated flux in 162-170MHz image (int_flux_166)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp174" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Peak flux in 170-177MHz image (peak_flux_174)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint174" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Integrated flux in 170-177MHz image (int_flux_174)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp181" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Peak flux in 177-185MHz image (peak_flux_181)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint181" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Integrated flux in 177-185MHz image (int_flux_181)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp189" ucd="phot.flux.density;em.radio.200-400MHz" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Peak flux in 185-193MHz image (peak_flux_189)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint189" ucd="phot.flux.density;em.radio.200-400MHz" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Integrated flux in 185-193MHz image (int_flux_189)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp197" ucd="phot.flux.density;em.radio.200-400MHz" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Peak flux in 193-200MHz image (peak_flux_197)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint197" ucd="phot.flux.density;em.radio.200-400MHz" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Integrated flux in 193-200MHz image (int_flux_197)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp204" ucd="phot.flux.density;em.radio.200-400MHz" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Peak flux in 200-208MHz image (peak_flux_204)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint204" ucd="phot.flux.density;em.radio.200-400MHz" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Integrated flux in 200-208MHz image (int_flux_204)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp212" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_250M" -->
+      <DESCRIPTION>? Peak flux in 208-216MHz image (peak_flux_212)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint212" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_250M" -->
+      <DESCRIPTION>? Integrated flux in 208-216MHz image (int_flux_212)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp220" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_250M" -->
+      <DESCRIPTION>? Peak flux in 216-223MHz image (peak_flux_220)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint220" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_250M" -->
+      <DESCRIPTION>? Integrated flux in 216-223MHz image (int_flux_220)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fp227" ucd="phot.flux.density" datatype="double" width="10" precision="6" unit="Jy/beam"><!-- ucd="PHOT_FLUX_RADIO_250M" -->
+      <DESCRIPTION>? Peak flux in 223-231MHz image (peak_flux_227)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fint227" ucd="phot.flux" datatype="double" width="10" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_250M" -->
+      <DESCRIPTION>? Integrated flux in 223-231MHz image (int_flux_227)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="alpha" ucd="spect.index;meta.modelled" datatype="double" width="9" precision="6"><!-- ucd="SPECT_SP-INDEX" -->
+      <DESCRIPTION>? Fitted spectral index (alpha)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Fintfit200" ucd="stat.fit;phot.flux" datatype="double" width="9" precision="6" unit="Jy"><!-- ucd="PHOT_FLUX_RADIO_175M" -->
+      <DESCRIPTION>? Fitted 200MHz integrated flux density (int_flux_fit_200)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+<DATA><TABLEDATA>
+<TR><TD>108.29000111</TD><TD>-23.80221889</TD><TD>J071309-234807</TD><TD>108.290001</TD><TD>-23.802219</TD><TD>0.043372</TD><TD>0.051026</TD><TD>8</TD><TD>2</TD><TD>0.084411</TD><TD>0.087999</TD><TD>0.154905</TD><TD>0.162798</TD><TD>0.066391</TD><TD>0.070225</TD><TD>0.159204</TD><TD>0.169612</TD><TD>0.062283</TD><TD>0.067454</TD><TD>0.074917</TD><TD>0.081892</TD><TD>0.074829</TD><TD>0.082390</TD><TD>0.059783</TD><TD>0.066364</TD><TD>0.057756</TD><TD>0.065453</TD><TD>0.007239</TD><TD>0.008269</TD><TD>0.042785</TD><TD>0.049279</TD><TD>0.055657</TD><TD>0.064680</TD><TD>0.066516</TD><TD>0.078268</TD><TD>0.067242</TD><TD>0.079816</TD><TD>0.030695</TD><TD>0.036721</TD><TD>0.029231</TD><TD>0.035261</TD><TD>0.042754</TD><TD>0.051972</TD><TD>0.044915</TD><TD>0.054868</TD><TD>0.018462</TD><TD>0.022703</TD><TD>0.049004</TD><TD>0.060544</TD><TD>-0.926384</TD><TD>0.056739</TD></TR>
+<TR><TD>121.44051389</TD><TD>-18.60925111</TD><TD>J080545-183633</TD><TD>121.440514</TD><TD>-18.609251</TD><TD>0.080507</TD><TD>0.101477</TD><TD>8</TD><TD>2</TD><TD>0.085112</TD><TD>0.089426</TD><TD>0.229918</TD><TD>0.244131</TD><TD>0.156474</TD><TD>0.167666</TD><TD>0.141225</TD><TD>0.152732</TD><TD>0.089259</TD><TD>0.098489</TD><TD>0.026910</TD><TD>0.030033</TD><TD>0.062033</TD><TD>0.070118</TD><TD>0.090838</TD><TD>0.104026</TD><TD>0.152344</TD><TD>0.179034</TD><TD>0.042150</TD><TD>0.050385</TD><TD>0.089478</TD><TD>0.108728</TD><TD>0.054460</TD><TD>0.067084</TD><TD>0.074203</TD><TD>0.093270</TD><TD>0.064455</TD><TD>0.082427</TD><TD>0.097134</TD><TD>0.126207</TD><TD>0.060885</TD><TD>0.080269</TD><TD>0.084631</TD><TD>0.113885</TD><TD>0.080868</TD><TD>0.110464</TD><TD>0.073602</TD><TD>0.102594</TD><TD>0.057857</TD><TD>0.081858</TD><TD>-0.638892</TD><TD>0.102394</TD></TR>
+<TR><TD>108.72625000</TD><TD>-23.62862806</TD><TD>J071454-233743</TD><TD>108.726250</TD><TD>-23.628628</TD><TD>0.111777</TD><TD>0.111656</TD><TD>8</TD><TD>2</TD><TD>0.230083</TD><TD>0.230030</TD><TD>0.108848</TD><TD>0.108818</TD><TD>0.037197</TD><TD>0.037186</TD><TD>0.111380</TD><TD>0.111339</TD><TD>0.120808</TD><TD>0.120750</TD><TD>0.060501</TD><TD>0.060471</TD><TD>0.098905</TD><TD>0.098851</TD><TD>0.109794</TD><TD>0.109727</TD><TD>0.134908</TD><TD>0.134804</TD><TD>0.085215</TD><TD>0.085143</TD><TD>0.107438</TD><TD>0.107341</TD><TD>0.113929</TD><TD>0.113816</TD><TD>0.083687</TD><TD>0.083597</TD><TD>0.106161</TD><TD>0.106035</TD><TD>0.108920</TD><TD>0.108780</TD><TD>0.131340</TD><TD>0.131158</TD><TD>0.102468</TD><TD>0.102315</TD><TD>0.094282</TD><TD>0.094138</TD><TD>0.123617</TD><TD>0.123414</TD><TD>0.124484</TD><TD>0.124271</TD><TD>0.001282</TD><TD>0.114111</TD></TR>
+<TR><TD>120.44355000</TD><TD>-19.03214500</TD><TD>J080146-190155</TD><TD>120.443550</TD><TD>-19.032145</TD><TD>0.098731</TD><TD>0.094816</TD><TD>8</TD><TD>2</TD><TD>0.137852</TD><TD>0.136814</TD><TD>-0.036948</TD><TD>-0.036610</TD><TD>-0.086266</TD><TD>-0.085342</TD><TD>0.116355</TD><TD>0.114932</TD><TD>-0.085297</TD><TD>-0.084009</TD><TD>0.047330</TD><TD>0.046541</TD><TD>-0.016765</TD><TD>-0.016445</TD><TD>0.084460</TD><TD>0.082665</TD><TD>0.017776</TD><TD>0.017320</TD><TD>0.018666</TD><TD>0.018135</TD><TD>0.056365</TD><TD>0.054595</TD><TD>0.037062</TD><TD>0.035795</TD><TD>0.084683</TD><TD>0.081487</TD><TD>0.047118</TD><TD>0.045181</TD><TD>0.109807</TD><TD>0.104951</TD><TD>0.096164</TD><TD>0.091603</TD><TD>0.111928</TD><TD>0.106123</TD><TD>0.089256</TD><TD>0.084329</TD><TD>0.087335</TD><TD>0.082122</TD><TD>0.130950</TD><TD>0.122719</TD><TD></TD><TD></TD></TR>
+<TR><TD>111.88096611</TD><TD>-22.46242694</TD><TD>J072731-222744</TD><TD>111.880966</TD><TD>-22.462427</TD><TD>0.983821</TD><TD>0.972181</TD><TD>8</TD><TD>2</TD><TD>2.564861</TD><TD>2.559750</TD><TD>2.303371</TD><TD>2.297587</TD><TD>2.216222</TD><TD>2.210067</TD><TD>1.899862</TD><TD>1.893787</TD><TD>1.864206</TD><TD>1.855482</TD><TD>1.662938</TD><TD>1.653790</TD><TD>1.594066</TD><TD>1.584581</TD><TD>1.524882</TD><TD>1.514950</TD><TD>1.409633</TD><TD>1.397723</TD><TD>1.290549</TD><TD>1.278649</TD><TD>1.252658</TD><TD>1.239924</TD><TD>1.174838</TD><TD>1.161927</TD><TD>1.126667</TD><TD>1.112979</TD><TD>1.092756</TD><TD>1.078151</TD><TD>1.021441</TD><TD>1.006844</TD><TD>1.009721</TD><TD>0.994328</TD><TD>0.973936</TD><TD>0.958256</TD><TD>0.955040</TD><TD>0.938678</TD><TD>0.917013</TD><TD>0.900104</TD><TD>0.873009</TD><TD>0.856099</TD><TD>-0.996056</TD><TD>0.976410</TD></TR>
+<TR><TD>111.82491306</TD><TD>-22.42943389</TD><TD>J072717-222545</TD><TD>111.824913</TD><TD>-22.429434</TD><TD>0.282734</TD><TD>0.277991</TD><TD>8</TD><TD>2</TD><TD>0.658583</TD><TD>0.656595</TD><TD>0.572923</TD><TD>0.570768</TD><TD>0.472393</TD><TD>0.470318</TD><TD>0.657217</TD><TD>0.653848</TD><TD>0.486519</TD><TD>0.483356</TD><TD>0.384398</TD><TD>0.381559</TD><TD>0.384769</TD><TD>0.381598</TD><TD>0.352905</TD><TD>0.349673</TD><TD>0.400223</TD><TD>0.395712</TD><TD>0.365943</TD><TD>0.361379</TD><TD>0.309338</TD><TD>0.305111</TD><TD>0.341436</TD><TD>0.336406</TD><TD>0.332105</TD><TD>0.326661</TD><TD>0.273160</TD><TD>0.268263</TD><TD>0.304997</TD><TD>0.299121</TD><TD>0.287439</TD><TD>0.281559</TD><TD>0.294283</TD><TD>0.287767</TD><TD>0.271009</TD><TD>0.264647</TD><TD>0.262795</TD><TD>0.256170</TD><TD>0.257112</TD><TD>0.250297</TD><TD>-0.822135</TD><TD>0.278452</TD></TR>
+<TR><TD>118.75878111</TD><TD>-19.72278194</TD><TD>J075502-194322</TD><TD>118.758781</TD><TD>-19.722782</TD><TD>2.052966</TD><TD>1.971846</TD><TD>8</TD><TD>2</TD><TD>5.128872</TD><TD>5.091554</TD><TD>4.412311</TD><TD>4.372785</TD><TD>4.189697</TD><TD>4.146736</TD><TD>4.009185</TD><TD>3.962022</TD><TD>3.486264</TD><TD>3.431190</TD><TD>3.316641</TD><TD>3.255978</TD><TD>3.143421</TD><TD>3.080508</TD><TD>2.976526</TD><TD>2.909739</TD><TD>2.770364</TD><TD>2.694421</TD><TD>2.643884</TD><TD>2.561562</TD><TD>2.469903</TD><TD>2.385415</TD><TD>2.407768</TD><TD>2.320065</TD><TD>2.313245</TD><TD>2.218428</TD><TD>2.200408</TD><TD>2.102337</TD><TD>2.132123</TD><TD>2.029859</TD><TD>2.079484</TD><TD>1.974141</TD><TD>2.070922</TD><TD>1.957398</TD><TD>2.005796</TD><TD>1.889723</TD><TD>1.950106</TD><TD>1.828532</TD><TD>1.887916</TD><TD>1.763069</TD><TD>-0.942118</TD><TD>1.957640</TD></TR>
+<TR><TD>112.84536000</TD><TD>-22.09369306</TD><TD>J073122-220537</TD><TD>112.845360</TD><TD>-22.093693</TD><TD>0.490906</TD><TD>0.486284</TD><TD>8</TD><TD>2</TD><TD>1.147527</TD><TD>1.145884</TD><TD>1.141821</TD><TD>1.139678</TD><TD>1.088280</TD><TD>1.085921</TD><TD>0.828340</TD><TD>0.826215</TD><TD>0.841929</TD><TD>0.838920</TD><TD>0.784309</TD><TD>0.781051</TD><TD>0.726554</TD><TD>0.723230</TD><TD>0.725811</TD><TD>0.722131</TD><TD>0.667694</TD><TD>0.663396</TD><TD>0.640104</TD><TD>0.635572</TD><TD>0.632542</TD><TD>0.627618</TD><TD>0.565049</TD><TD>0.560296</TD><TD>0.546148</TD><TD>0.541060</TD><TD>0.500143</TD><TD>0.495031</TD><TD>0.494115</TD><TD>0.488706</TD><TD>0.525295</TD><TD>0.519176</TD><TD>0.495074</TD><TD>0.488920</TD><TD>0.493204</TD><TD>0.486702</TD><TD>0.447766</TD><TD>0.441431</TD><TD>0.453558</TD><TD>0.446822</TD><TD>-0.890456</TD><TD>0.488740</TD></TR>
+<TR><TD>119.93966694</TD><TD>-19.22629000</TD><TD>J075945-191334</TD><TD>119.939667</TD><TD>-19.226290</TD><TD>0.160456</TD><TD>0.165658</TD><TD>8</TD><TD>2</TD><TD>0.207181</TD><TD>0.208566</TD><TD>0.225172</TD><TD>0.226993</TD><TD>0.299157</TD><TD>0.302000</TD><TD>0.365119</TD><TD>0.369046</TD><TD>0.263353</TD><TD>0.266709</TD><TD>0.232361</TD><TD>0.235548</TD><TD>0.283553</TD><TD>0.288078</TD><TD>0.163300</TD><TD>0.166180</TD><TD>0.151124</TD><TD>0.154286</TD><TD>0.234613</TD><TD>0.239949</TD><TD>0.227526</TD><TD>0.233238</TD><TD>0.252738</TD><TD>0.259685</TD><TD>0.151524</TD><TD>0.156043</TD><TD>0.170862</TD><TD>0.176375</TD><TD>0.130788</TD><TD>0.135299</TD><TD>0.154828</TD><TD>0.160563</TD><TD>0.176942</TD><TD>0.184085</TD><TD>0.165301</TD><TD>0.172390</TD><TD>0.143220</TD><TD>0.149817</TD><TD>0.155510</TD><TD>0.162977</TD><TD>-0.772117</TD><TD>0.175239</TD></TR>
+<TR><TD>119.89688889</TD><TD>-19.19119111</TD><TD>J075935-191128</TD><TD>119.896889</TD><TD>-19.191191</TD><TD>0.119992</TD><TD>0.114846</TD><TD>8</TD><TD>2</TD><TD>0.281449</TD><TD>0.279256</TD><TD>0.289376</TD><TD>0.286581</TD><TD>0.136379</TD><TD>0.134851</TD><TD>0.195789</TD><TD>0.193268</TD><TD>0.132109</TD><TD>0.129876</TD><TD>0.114761</TD><TD>0.112547</TD><TD>0.003046</TD><TD>0.002981</TD><TD>0.234233</TD><TD>0.228618</TD><TD>0.122957</TD><TD>0.119374</TD><TD>0.144946</TD><TD>0.140191</TD><TD>0.136347</TD><TD>0.131429</TD><TD>0.088255</TD><TD>0.084845</TD><TD>0.141322</TD><TD>0.135226</TD><TD>0.110572</TD><TD>0.105393</TD><TD>0.148143</TD><TD>0.140689</TD><TD>0.090206</TD><TD>0.085397</TD><TD>0.132588</TD><TD>0.124932</TD><TD>0.164279</TD><TD>0.154258</TD><TD>0.081276</TD><TD>0.075943</TD><TD>0.093741</TD><TD>0.087245</TD><TD>-0.741624</TD><TD>0.119286</TD></TR>
+<TR><TD>106.94519000</TD><TD>-24.23288194</TD><TD>J070746-241358</TD><TD>106.945190</TD><TD>-24.232882</TD><TD>0.038735</TD><TD>0.035340</TD><TD>8</TD><TD>2</TD><TD>0.013029</TD><TD>0.012798</TD><TD>0.146037</TD><TD>0.142858</TD><TD>0.066190</TD><TD>0.064505</TD><TD>-0.017043</TD><TD>-0.016549</TD><TD>-0.018838</TD><TD>-0.018166</TD><TD>-0.055671</TD><TD>-0.053419</TD><TD>0.070289</TD><TD>0.067119</TD><TD>0.032620</TD><TD>0.030988</TD><TD>0.040305</TD><TD>0.037837</TD><TD>0.031742</TD><TD>0.029608</TD><TD>0.031802</TD><TD>0.029475</TD><TD>-0.009493</TD><TD>-0.008739</TD><TD>0.044705</TD><TD>0.040803</TD><TD>0.033726</TD><TD>0.030545</TD><TD>0.022542</TD><TD>0.020262</TD><TD>0.045770</TD><TD>0.040793</TD><TD>0.055191</TD><TD>0.048740</TD><TD>0.048965</TD><TD>0.042893</TD><TD>0.022550</TD><TD>0.019548</TD><TD>0.045378</TD><TD>0.039052</TD><TD></TD><TD></TD></TR>
+<TR><TD>113.93094611</TD><TD>-21.68245694</TD><TD>J073543-214056</TD><TD>113.930946</TD><TD>-21.682457</TD><TD>0.112382</TD><TD>0.099827</TD><TD>8</TD><TD>2</TD><TD>0.173740</TD><TD>0.169893</TD><TD>0.180087</TD><TD>0.175248</TD><TD>0.162135</TD><TD>0.157119</TD><TD>0.188823</TD><TD>0.182123</TD><TD>0.229100</TD><TD>0.218819</TD><TD>0.203512</TD><TD>0.193126</TD><TD>0.150287</TD><TD>0.141785</TD><TD>0.074996</TD><TD>0.070313</TD><TD>0.133276</TD><TD>0.123028</TD><TD>0.186057</TD><TD>0.170291</TD><TD>0.151439</TD><TD>0.137383</TD><TD>0.152516</TD><TD>0.137291</TD><TD>0.112415</TD><TD>0.099937</TD><TD>0.116689</TD><TD>0.102555</TD><TD>0.142252</TD><TD>0.123764</TD><TD>0.141654</TD><TD>0.122122</TD><TD>0.102343</TD><TD>0.087127</TD><TD>0.114964</TD><TD>0.096835</TD><TD>0.088199</TD><TD>0.073271</TD><TD>0.111313</TD><TD>0.091524</TD><TD>-0.947182</TD><TD>0.104948</TD></TR>
+<TR><TD>105.96080806</TD><TD>-24.55085889</TD><TD>J070350-243303</TD><TD>105.960808</TD><TD>-24.550859</TD><TD>0.062715</TD><TD>0.059276</TD><TD>8</TD><TD>2</TD><TD>0.239735</TD><TD>0.237063</TD><TD>0.032026</TD><TD>0.031592</TD><TD>0.170087</TD><TD>0.167408</TD><TD>0.034752</TD><TD>0.034125</TD><TD>0.064644</TD><TD>0.063225</TD><TD>0.056524</TD><TD>0.055116</TD><TD>0.025083</TD><TD>0.024383</TD><TD>0.032551</TD><TD>0.031544</TD><TD>0.042580</TD><TD>0.040968</TD><TD>0.057144</TD><TD>0.054760</TD><TD>0.087159</TD><TD>0.083192</TD><TD>0.072411</TD><TD>0.068826</TD><TD>0.088966</TD><TD>0.084145</TD><TD>0.073511</TD><TD>0.069204</TD><TD>0.048083</TD><TD>0.045053</TD><TD>0.052952</TD><TD>0.049364</TD><TD>0.044592</TD><TD>0.041333</TD><TD>0.064386</TD><TD>0.059359</TD><TD>0.079530</TD><TD>0.072922</TD><TD>0.046651</TD><TD>0.042563</TD><TD>-0.910828</TD><TD>0.060716</TD></TR>
+<TR><TD>112.68993389</TD><TD>-22.14040889</TD><TD>J073045-220825</TD><TD>112.689934</TD><TD>-22.140409</TD><TD>0.084276</TD><TD>0.079945</TD><TD>8</TD><TD>2</TD><TD>0.210773</TD><TD>0.208703</TD><TD>0.166024</TD><TD>0.164027</TD><TD>0.277550</TD><TD>0.273698</TD><TD>0.226863</TD><TD>0.223236</TD><TD>0.176540</TD><TD>0.172931</TD><TD>0.116949</TD><TD>0.114222</TD><TD>0.192406</TD><TD>0.187433</TD><TD>0.100144</TD><TD>0.097285</TD><TD>0.154153</TD><TD>0.148714</TD><TD>0.086386</TD><TD>0.083027</TD><TD>0.107283</TD><TD>0.102711</TD><TD>0.104815</TD><TD>0.100008</TD><TD>0.071492</TD><TD>0.067847</TD><TD>0.088124</TD><TD>0.083217</TD><TD>0.081432</TD><TD>0.076567</TD><TD>0.096356</TD><TD>0.090247</TD><TD>0.055471</TD><TD>0.051683</TD><TD>0.093400</TD><TD>0.086635</TD><TD>0.094081</TD><TD>0.086766</TD><TD>0.087893</TD><TD>0.080715</TD><TD>-1.174237</TD><TD>0.083451</TD></TR>
+<TR><TD>110.07058694</TD><TD>-23.10832806</TD><TD>J072016-230629</TD><TD>110.070587</TD><TD>-23.108328</TD><TD>0.052523</TD><TD>0.048753</TD><TD>8</TD><TD>2</TD><TD>0.062223</TD><TD>0.061341</TD><TD>0.069322</TD><TD>0.068128</TD><TD>0.084778</TD><TD>0.083097</TD><TD>0.059516</TD><TD>0.058162</TD><TD>0.171989</TD><TD>0.167033</TD><TD>0.075903</TD><TD>0.073415</TD><TD>0.084376</TD><TD>0.081311</TD><TD>0.050327</TD><TD>0.048309</TD><TD>0.055395</TD><TD>0.052658</TD><TD>0.058209</TD><TD>0.055040</TD><TD>0.042998</TD><TD>0.040435</TD><TD>0.058519</TD><TD>0.054766</TD><TD>0.029062</TD><TD>0.026990</TD><TD>0.067005</TD><TD>0.061792</TD><TD>0.045060</TD><TD>0.041298</TD><TD>0.029270</TD><TD>0.026678</TD><TD>0.073428</TD><TD>0.066418</TD><TD>0.047598</TD><TD>0.042778</TD><TD>0.059695</TD><TD>0.053209</TD><TD>0.060566</TD><TD>0.053653</TD><TD>-1.017828</TD><TD>0.052249</TD></TR>
+<TR><TD>106.71061694</TD><TD>-24.27664806</TD><TD>J070650-241635</TD><TD>106.710617</TD><TD>-24.276648</TD><TD>0.081857</TD><TD>0.074054</TD><TD>8</TD><TD>2</TD><TD>0.066808</TD><TD>0.065520</TD><TD>0.080141</TD><TD>0.078245</TD><TD>0.234590</TD><TD>0.228087</TD><TD>0.007150</TD><TD>0.006924</TD><TD>0.051831</TD><TD>0.049843</TD><TD>0.108883</TD><TD>0.104136</TD><TD>0.105028</TD><TD>0.099913</TD><TD>0.093928</TD><TD>0.088844</TD><TD>0.066931</TD><TD>0.062504</TD><TD>0.098744</TD><TD>0.091553</TD><TD>0.060161</TD><TD>0.055388</TD><TD>0.096666</TD><TD>0.088330</TD><TD>0.080791</TD><TD>0.073125</TD><TD>0.078517</TD><TD>0.070444</TD><TD>0.062872</TD><TD>0.055930</TD><TD>0.097462</TD><TD>0.085863</TD><TD>0.084766</TD><TD>0.073885</TD><TD>0.068097</TD><TD>0.058810</TD><TD>0.086031</TD><TD>0.073401</TD><TD>0.101075</TD><TD>0.085517</TD><TD>-0.613138</TD><TD>0.075503</TD></TR>
+<TR><TD>120.61284611</TD><TD>-18.91994111</TD><TD>J080227-185511</TD><TD>120.612846</TD><TD>-18.919941</TD><TD>0.174486</TD><TD>0.183734</TD><TD>8</TD><TD>2</TD><TD>0.524411</TD><TD>0.530076</TD><TD>0.331899</TD><TD>0.336227</TD><TD>0.231853</TD><TD>0.235355</TD><TD>0.371486</TD><TD>0.377843</TD><TD>0.372555</TD><TD>0.380414</TD><TD>0.369301</TD><TD>0.377907</TD><TD>0.273602</TD><TD>0.280844</TD><TD>0.332300</TD><TD>0.342062</TD><TD>0.267508</TD><TD>0.276929</TD><TD>0.220522</TD><TD>0.229106</TD><TD>0.255341</TD><TD>0.266297</TD><TD>0.190200</TD><TD>0.199044</TD><TD>0.154329</TD><TD>0.162229</TD><TD>0.189796</TD><TD>0.200330</TD><TD>0.199436</TD><TD>0.211307</TD><TD>0.188468</TD><TD>0.200444</TD><TD>0.187882</TD><TD>0.200870</TD><TD>0.150104</TD><TD>0.161109</TD><TD>0.159059</TD><TD>0.171612</TD><TD>0.137834</TD><TD>0.149256</TD><TD>-1.043555</TD><TD>0.186942</TD></TR>
+<TR><TD>118.64173889</TD><TD>-19.76695389</TD><TD>J075434-194601</TD><TD>118.641739</TD><TD>-19.766954</TD><TD>0.058347</TD><TD>0.073997</TD><TD>8</TD><TD>2</TD><TD>0.042569</TD><TD>0.044883</TD><TD>-0.060950</TD><TD>-0.064995</TD><TD>-0.102367</TD><TD>-0.110154</TD><TD>-0.103464</TD><TD>-0.112422</TD><TD>-0.069491</TD><TD>-0.077278</TD><TD>0.031384</TD><TD>0.035374</TD><TD>0.061530</TD><TD>0.070166</TD><TD>-0.002251</TD><TD>-0.002602</TD><TD>0.024016</TD><TD>0.028520</TD><TD>0.020853</TD><TD>0.025224</TD><TD>0.036616</TD><TD>0.045013</TD><TD>0.008694</TD><TD>0.010821</TD><TD>0.012415</TD><TD>0.015780</TD><TD>0.072396</TD><TD>0.093582</TD><TD>0.044193</TD><TD>0.058015</TD><TD>0.055921</TD><TD>0.074377</TD><TD>0.058180</TD><TD>0.078860</TD><TD>0.044212</TD><TD>0.060751</TD><TD>0.061634</TD><TD>0.086299</TD><TD>0.063014</TD><TD>0.089520</TD><TD></TD><TD></TD></TR>
+<TR><TD>118.51445806</TD><TD>-19.79726000</TD><TD>J075403-194750</TD><TD>118.514458</TD><TD>-19.797260</TD><TD>2.145557</TD><TD>2.173001</TD><TD>8</TD><TD>2</TD><TD>5.026262</TD><TD>5.041559</TD><TD>4.570159</TD><TD>4.586434</TD><TD>4.180693</TD><TD>4.198005</TD><TD>3.938428</TD><TD>3.956573</TD><TD>3.564234</TD><TD>3.582567</TD><TD>3.382844</TD><TD>3.400922</TD><TD>3.184818</TD><TD>3.205034</TD><TD>3.025486</TD><TD>3.046503</TD><TD>2.805628</TD><TD>2.828394</TD><TD>2.644432</TD><TD>2.667281</TD><TD>2.591376</TD><TD>2.616172</TD><TD>2.424628</TD><TD>2.450355</TD><TD>2.387021</TD><TD>2.414105</TD><TD>2.294510</TD><TD>2.322642</TD><TD>2.246374</TD><TD>2.275784</TD><TD>2.158900</TD><TD>2.189535</TD><TD>2.110444</TD><TD>2.143289</TD><TD>2.081361</TD><TD>2.115952</TD><TD>2.017371</TD><TD>2.053458</TD><TD>1.967077</TD><TD>2.003560</TD><TD>-0.828844</TD><TD>2.167038</TD></TR>
+<TR><TD>118.51107806</TD><TD>-19.72821194</TD><TD>J075402-194341</TD><TD>118.511078</TD><TD>-19.728212</TD><TD>0.108186</TD><TD>0.104907</TD><TD>8</TD><TD>2</TD><TD>0.315235</TD><TD>0.313480</TD><TD>0.002297</TD><TD>0.002282</TD><TD>0.014345</TD><TD>0.014233</TD><TD>0.073750</TD><TD>0.073086</TD><TD>0.212949</TD><TD>0.210359</TD><TD>0.130244</TD><TD>0.128405</TD><TD>0.161156</TD><TD>0.158672</TD><TD>0.188646</TD><TD>0.185386</TD><TD>0.152587</TD><TD>0.149364</TD><TD>0.169708</TD><TD>0.165632</TD><TD>0.133657</TD><TD>0.130133</TD><TD>0.112164</TD><TD>0.109019</TD><TD>0.127776</TD><TD>0.123742</TD><TD>0.127942</TD><TD>0.123552</TD><TD>0.126757</TD><TD>0.122078</TD><TD>0.090713</TD><TD>0.087181</TD><TD>0.082409</TD><TD>0.078940</TD><TD>0.145644</TD><TD>0.139178</TD><TD>0.096014</TD><TD>0.091425</TD><TD>0.085845</TD><TD>0.081493</TD><TD>-0.949743</TD><TD>0.110091</TD></TR>
+<TR><TD>120.24286694</TD><TD>-19.05700694</TD><TD>J080058-190325</TD><TD>120.242867</TD><TD>-19.057007</TD><TD>0.156458</TD><TD>0.156410</TD><TD>8</TD><TD>2</TD><TD>0.280632</TD><TD>0.280729</TD><TD>0.448205</TD><TD>0.448346</TD><TD>0.357663</TD><TD>0.357762</TD><TD>0.271945</TD><TD>0.272008</TD><TD>0.315373</TD><TD>0.315426</TD><TD>0.148951</TD><TD>0.148971</TD><TD>0.219564</TD><TD>0.219591</TD><TD>0.248245</TD><TD>0.248267</TD><TD>0.170193</TD><TD>0.170197</TD><TD>0.221402</TD><TD>0.221395</TD><TD>0.211558</TD><TD>0.211550</TD><TD>0.193313</TD><TD>0.193301</TD><TD>0.166745</TD><TD>0.166729</TD><TD>0.152456</TD><TD>0.152435</TD><TD>0.197738</TD><TD>0.197704</TD><TD>0.178136</TD><TD>0.178101</TD><TD>0.153139</TD><TD>0.153104</TD><TD>0.150999</TD><TD>0.150962</TD><TD>0.127388</TD><TD>0.127354</TD><TD>0.126706</TD><TD>0.126667</TD><TD>-0.955073</TD><TD>0.159197</TD></TR>
+<TR><TD>119.76693694</TD><TD>-19.26589806</TD><TD>J075904-191557</TD><TD>119.766937</TD><TD>-19.265898</TD><TD>0.088356</TD><TD>0.088702</TD><TD>8</TD><TD>2</TD><TD>0.305231</TD><TD>0.305593</TD><TD>-0.025297</TD><TD>-0.025330</TD><TD>-0.012296</TD><TD>-0.012314</TD><TD>0.117348</TD><TD>0.117538</TD><TD>0.081434</TD><TD>0.081571</TD><TD>0.134592</TD><TD>0.134817</TD><TD>0.110872</TD><TD>0.111097</TD><TD>0.156906</TD><TD>0.157248</TD><TD>0.105686</TD><TD>0.105948</TD><TD>0.079507</TD><TD>0.079711</TD><TD>0.048285</TD><TD>0.048423</TD><TD>0.059043</TD><TD>0.059234</TD><TD>0.104351</TD><TD>0.104706</TD><TD>0.098648</TD><TD>0.099009</TD><TD>0.078058</TD><TD>0.078364</TD><TD>0.116372</TD><TD>0.116871</TD><TD>0.093033</TD><TD>0.093476</TD><TD>0.089430</TD><TD>0.089889</TD><TD>0.089744</TD><TD>0.090242</TD><TD>0.040710</TD><TD>0.040943</TD><TD></TD><TD></TD></TR>
+<TR><TD>119.00135000</TD><TD>-19.58271611</TD><TD>J075600-193457</TD><TD>119.001350</TD><TD>-19.582716</TD><TD>0.188805</TD><TD>0.195518</TD><TD>8</TD><TD>2</TD><TD>0.242730</TD><TD>0.244515</TD><TD>0.372103</TD><TD>0.375395</TD><TD>0.297546</TD><TD>0.300591</TD><TD>0.204279</TD><TD>0.206642</TD><TD>0.391315</TD><TD>0.396863</TD><TD>0.304566</TD><TD>0.309321</TD><TD>0.251674</TD><TD>0.256146</TD><TD>0.240708</TD><TD>0.245451</TD><TD>0.271036</TD><TD>0.277430</TD><TD>0.231366</TD><TD>0.237388</TD><TD>0.257081</TD><TD>0.264462</TD><TD>0.215980</TD><TD>0.222706</TD><TD>0.193356</TD><TD>0.199979</TD><TD>0.201748</TD><TD>0.209242</TD><TD>0.160475</TD><TD>0.166868</TD><TD>0.202215</TD><TD>0.210822</TD><TD>0.188968</TD><TD>0.197725</TD><TD>0.210527</TD><TD>0.220880</TD><TD>0.144782</TD><TD>0.152449</TD><TD>0.179882</TD><TD>0.189882</TD><TD>-0.729680</TD><TD>0.199121</TD></TR>
+<TR><TD>114.23993694</TD><TD>-21.51647889</TD><TD>J073657-213059</TD><TD>114.239937</TD><TD>-21.516479</TD><TD>0.075152</TD><TD>0.070879</TD><TD>8</TD><TD>2</TD><TD>0.024917</TD><TD>0.024645</TD><TD>0.278978</TD><TD>0.275273</TD><TD>0.158003</TD><TD>0.155522</TD><TD>0.082059</TD><TD>0.080587</TD><TD>0.011924</TD><TD>0.011638</TD><TD>0.106035</TD><TD>0.103124</TD><TD>0.046067</TD><TD>0.044677</TD><TD>0.069654</TD><TD>0.067325</TD><TD>0.103056</TD><TD>0.098789</TD><TD>0.072335</TD><TD>0.069024</TD><TD>0.054562</TD><TD>0.051815</TD><TD>0.081725</TD><TD>0.077280</TD><TD>0.061871</TD><TD>0.058118</TD><TD>0.067331</TD><TD>0.062880</TD><TD>0.055778</TD><TD>0.051776</TD><TD>0.062512</TD><TD>0.057802</TD><TD>0.090666</TD><TD>0.083383</TD><TD>0.104165</TD><TD>0.095147</TD><TD>0.064367</TD><TD>0.058409</TD><TD>0.058702</TD><TD>0.052968</TD><TD>-0.905740</TD><TD>0.070503</TD></TR>
+<TR><TD>117.76806611</TD><TD>-20.11031694</TD><TD>J075104-200637</TD><TD>117.768066</TD><TD>-20.110317</TD><TD>0.136168</TD><TD>0.119099</TD><TD>8</TD><TD>2</TD><TD>0.126694</TD><TD>0.123598</TD><TD>0.397899</TD><TD>0.386035</TD><TD>0.251410</TD><TD>0.242631</TD><TD>0.165947</TD><TD>0.159340</TD><TD>0.257185</TD><TD>0.244274</TD><TD>0.273812</TD><TD>0.258469</TD><TD>0.194709</TD><TD>0.182386</TD><TD>0.146501</TD><TD>0.136124</TD><TD>0.252405</TD><TD>0.230821</TD><TD>0.200626</TD><TD>0.181567</TD><TD>0.159129</TD><TD>0.142387</TD><TD>0.112804</TD><TD>0.100052</TD><TD>0.158495</TD><TD>0.138562</TD><TD>0.155672</TD><TD>0.134532</TD><TD>0.153701</TD><TD>0.131005</TD><TD>0.123398</TD><TD>0.104222</TD><TD>0.139756</TD><TD>0.116117</TD><TD>0.104096</TD><TD>0.085170</TD><TD>0.137364</TD><TD>0.110590</TD><TD>0.132433</TD><TD>0.105366</TD><TD>-1.248730</TD><TD>0.116236</TD></TR>
+<TR><TD>105.57084694</TD><TD>-24.65839000</TD><TD>J070217-243930</TD><TD>105.570847</TD><TD>-24.658390</TD><TD>0.031363</TD><TD>0.035248</TD><TD>8</TD><TD>2</TD><TD>0.127686</TD><TD>0.130916</TD><TD>0.109530</TD><TD>0.112905</TD><TD>0.123894</TD><TD>0.128305</TD><TD>0.207520</TD><TD>0.215958</TD><TD>0.127314</TD><TD>0.133669</TD><TD>-0.019896</TD><TD>-0.021025</TD><TD>0.055334</TD><TD>0.058842</TD><TD>0.094285</TD><TD>0.100895</TD><TD>0.009703</TD><TD>0.010538</TD><TD>0.047675</TD><TD>0.052185</TD><TD>0.030128</TD><TD>0.033237</TD><TD>0.066399</TD><TD>0.073842</TD><TD>0.045108</TD><TD>0.050654</TD><TD>0.026111</TD><TD>0.029577</TD><TD>0.020868</TD><TD>0.023844</TD><TD>0.010942</TD><TD>0.012617</TD><TD>0.033814</TD><TD>0.039397</TD><TD>0.037500</TD><TD>0.044113</TD><TD>0.036390</TD><TD>0.043213</TD><TD>0.023946</TD><TD>0.028680</TD><TD></TD><TD></TD></TR>
+<TR><TD>113.68576806</TD><TD>-21.72072806</TD><TD>J073444-214314</TD><TD>113.685768</TD><TD>-21.720728</TD><TD>0.079812</TD><TD>0.103207</TD><TD>8</TD><TD>2</TD><TD>0.104792</TD><TD>0.110936</TD><TD>0.027898</TD><TD>0.029878</TD><TD>0.072879</TD><TD>0.078845</TD><TD>0.197171</TD><TD>0.215660</TD><TD>0.094833</TD><TD>0.106008</TD><TD>0.132808</TD><TD>0.150585</TD><TD>0.120986</TD><TD>0.138962</TD><TD>0.120197</TD><TD>0.139907</TD><TD>0.106822</TD><TD>0.128343</TD><TD>0.052939</TD><TD>0.064698</TD><TD>0.089465</TD><TD>0.111226</TD><TD>0.087573</TD><TD>0.110473</TD><TD>0.106304</TD><TD>0.137230</TD><TD>0.086032</TD><TD>0.113330</TD><TD>0.083046</TD><TD>0.111326</TD><TD>0.065926</TD><TD>0.089736</TD><TD>0.073443</TD><TD>0.102080</TD><TD>0.068745</TD><TD>0.097178</TD><TD>0.067688</TD><TD>0.097734</TD><TD>0.057597</TD><TD>0.084454</TD><TD>-0.620147</TD><TD>0.102582</TD></TR>
+<TR><TD>116.77697000</TD><TD>-20.48872194</TD><TD>J074706-202919</TD><TD>116.776970</TD><TD>-20.488722</TD><TD>0.079198</TD><TD>0.071065</TD><TD>8</TD><TD>2</TD><TD>0.350018</TD><TD>0.342973</TD><TD>0.099136</TD><TD>0.096712</TD><TD>0.316869</TD><TD>0.307912</TD><TD>0.205982</TD><TD>0.199251</TD><TD>0.117759</TD><TD>0.112874</TD><TD>0.172610</TD><TD>0.164521</TD><TD>0.088577</TD><TD>0.083969</TD><TD>0.068708</TD><TD>0.064711</TD><TD>0.132573</TD><TD>0.123181</TD><TD>0.085203</TD><TD>0.078515</TD><TD>0.128158</TD><TD>0.117090</TD><TD>0.092494</TD><TD>0.083898</TD><TD>0.050763</TD><TD>0.045502</TD><TD>0.079327</TD><TD>0.070364</TD><TD>0.087800</TD><TD>0.077058</TD><TD>0.077839</TD><TD>0.067774</TD><TD>0.091756</TD><TD>0.078899</TD><TD>0.082762</TD><TD>0.070367</TD><TD>0.094425</TD><TD>0.079244</TD><TD>0.042761</TD><TD>0.035533</TD><TD>-1.464600</TD><TD>0.070684</TD></TR>
+<TR><TD>116.10901611</TD><TD>-20.74797389</TD><TD>J074426-204452</TD><TD>116.109016</TD><TD>-20.747974</TD><TD>0.233985</TD><TD>0.216453</TD><TD>8</TD><TD>2</TD><TD>0.305634</TD><TD>0.301160</TD><TD>0.342742</TD><TD>0.336638</TD><TD>0.347617</TD><TD>0.340382</TD><TD>0.320984</TD><TD>0.313309</TD><TD>0.333806</TD><TD>0.323416</TD><TD>0.325292</TD><TD>0.313772</TD><TD>0.271717</TD><TD>0.261098</TD><TD>0.217996</TD><TD>0.208518</TD><TD>0.229172</TD><TD>0.216946</TD><TD>0.185002</TD><TD>0.174087</TD><TD>0.269514</TD><TD>0.252037</TD><TD>0.267586</TD><TD>0.248885</TD><TD>0.236655</TD><TD>0.218230</TD><TD>0.216221</TD><TD>0.197887</TD><TD>0.241066</TD><TD>0.218925</TD><TD>0.223871</TD><TD>0.202233</TD><TD>0.233555</TD><TD>0.209331</TD><TD>0.211081</TD><TD>0.187601</TD><TD>0.241227</TD><TD>0.212515</TD><TD>0.218885</TD><TD>0.191467</TD><TD>-0.526715</TD><TD>0.205765</TD></TR>
+<TR><TD>112.31960306</TD><TD>-22.23095889</TD><TD>J072916-221351</TD><TD>112.319603</TD><TD>-22.230959</TD><TD>0.125089</TD><TD>0.138277</TD><TD>8</TD><TD>2</TD><TD>1.346393</TD><TD>1.374831</TD><TD>0.986816</TD><TD>1.012050</TD><TD>0.623852</TD><TD>0.642210</TD><TD>0.528743</TD><TD>0.546532</TD><TD>0.375210</TD><TD>0.391202</TD><TD>0.263990</TD><TD>0.276799</TD><TD>0.263661</TD><TD>0.277829</TD><TD>0.211221</TD><TD>0.223727</TD><TD>0.179804</TD><TD>0.192918</TD><TD>0.175425</TD><TD>0.189511</TD><TD>0.165717</TD><TD>0.180288</TD><TD>0.141409</TD><TD>0.154770</TD><TD>0.156545</TD><TD>0.172986</TD><TD>0.118225</TD><TD>0.131760</TD><TD>0.134679</TD><TD>0.151213</TD><TD>0.122570</TD><TD>0.138524</TD><TD>0.104800</TD><TD>0.119496</TD><TD>0.118883</TD><TD>0.136561</TD><TD>0.114540</TD><TD>0.132809</TD><TD>0.111885</TD><TD>0.130620</TD><TD></TD><TD></TD></TR>
+<TR><TD>108.53502694</TD><TD>-23.59868611</TD><TD>J071408-233555</TD><TD>108.535027</TD><TD>-23.598686</TD><TD>0.048944</TD><TD>0.065417</TD><TD>8</TD><TD>2</TD><TD>0.138894</TD><TD>0.148459</TD><TD>0.026965</TD><TD>0.029213</TD><TD>0.206291</TD><TD>0.226005</TD><TD>0.060226</TD><TD>0.066842</TD><TD>0.090342</TD><TD>0.102631</TD><TD>0.087290</TD><TD>0.100793</TD><TD>0.098168</TD><TD>0.114955</TD><TD>0.061404</TD><TD>0.072991</TD><TD>0.078634</TD><TD>0.096883</TD><TD>0.060972</TD><TD>0.076431</TD><TD>0.040090</TD><TD>0.051119</TD><TD>0.039306</TD><TD>0.050985</TD><TD>0.043861</TD><TD>0.058458</TD><TD>0.062305</TD><TD>0.084692</TD><TD>0.054129</TD><TD>0.074976</TD><TD>0.039828</TD><TD>0.056184</TD><TD>0.033197</TD><TD>0.047898</TD><TD>0.032188</TD><TD>0.047244</TD><TD>0.058579</TD><TD>0.087704</TD><TD>0.045367</TD><TD>0.068989</TD><TD>-0.854174</TD><TD>0.069592</TD></TR>
+<TR><TD>120.16771694</TD><TD>-19.07062694</TD><TD>J080040-190414</TD><TD>120.167717</TD><TD>-19.070627</TD><TD>0.051172</TD><TD>0.083922</TD><TD>8</TD><TD>2</TD><TD>0.162785</TD><TD>0.183049</TD><TD>0.034070</TD><TD>0.039256</TD><TD>0.045722</TD><TD>0.053756</TD><TD>0.102110</TD><TD>0.122568</TD><TD>0.063282</TD><TD>0.079530</TD><TD>0.069514</TD><TD>0.089649</TD><TD>0.086321</TD><TD>0.114232</TD><TD>0.113374</TD><TD>0.154214</TD><TD>0.066893</TD><TD>0.095970</TD><TD>0.004873</TD><TD>0.007239</TD><TD>0.064391</TD><TD>0.098757</TD><TD>0.042353</TD><TD>0.066634</TD><TD>0.043837</TD><TD>0.071719</TD><TD>0.043905</TD><TD>0.074176</TD><TD>0.047330</TD><TD>0.082330</TD><TD>0.024844</TD><TD>0.044345</TD><TD>0.074388</TD><TD>0.137665</TD><TD>0.043208</TD><TD>0.082068</TD><TD>0.026594</TD><TD>0.052308</TD><TD>0.020874</TD><TD>0.042130</TD><TD>-0.489585</TD><TD>0.089119</TD></TR>
+<TR><TD>107.52442194</TD><TD>-23.92250389</TD><TD>J071005-235521</TD><TD>107.524422</TD><TD>-23.922504</TD><TD>0.488655</TD><TD>0.511099</TD><TD>8</TD><TD>2</TD><TD>1.311964</TD><TD>1.324756</TD><TD>1.301050</TD><TD>1.316487</TD><TD>1.175023</TD><TD>1.191297</TD><TD>0.974006</TD><TD>0.989341</TD><TD>1.003151</TD><TD>1.022089</TD><TD>0.894559</TD><TD>0.913752</TD><TD>0.753832</TD><TD>0.771889</TD><TD>0.772877</TD><TD>0.793388</TD><TD>0.718743</TD><TD>0.741885</TD><TD>0.653276</TD><TD>0.676408</TD><TD>0.631047</TD><TD>0.655341</TD><TD>0.613512</TD><TD>0.639121</TD><TD>0.570829</TD><TD>0.596967</TD><TD>0.555193</TD><TD>0.582682</TD><TD>0.500952</TD><TD>0.527513</TD><TD>0.475318</TD><TD>0.502392</TD><TD>0.462599</TD><TD>0.490946</TD><TD>0.455656</TD><TD>0.485232</TD><TD>0.440711</TD><TD>0.471416</TD><TD>0.420344</TD><TD>0.450970</TD><TD>-1.034754</TD><TD>0.511309</TD></TR>
+<TR><TD>114.81080611</TD><TD>-21.25642389</TD><TD>J073914-211523</TD><TD>114.810806</TD><TD>-21.256424</TD><TD>0.107452</TD><TD>0.107902</TD><TD>8</TD><TD>2</TD><TD>0.320407</TD><TD>0.320811</TD><TD>0.262110</TD><TD>0.262480</TD><TD>0.138782</TD><TD>0.138986</TD><TD>0.132327</TD><TD>0.132547</TD><TD>0.186125</TD><TD>0.186456</TD><TD>0.157023</TD><TD>0.157315</TD><TD>0.118742</TD><TD>0.118993</TD><TD>0.135935</TD><TD>0.136260</TD><TD>0.110130</TD><TD>0.110431</TD><TD>0.131481</TD><TD>0.131877</TD><TD>0.116933</TD><TD>0.117320</TD><TD>0.125318</TD><TD>0.125756</TD><TD>0.127352</TD><TD>0.127845</TD><TD>0.118475</TD><TD>0.118974</TD><TD>0.094746</TD><TD>0.095174</TD><TD>0.115888</TD><TD>0.116450</TD><TD>0.109469</TD><TD>0.110071</TD><TD>0.086591</TD><TD>0.087086</TD><TD>0.098493</TD><TD>0.099106</TD><TD>0.073470</TD><TD>0.073944</TD><TD>-0.898049</TD><TD>0.102592</TD></TR>
+<TR><TD>115.23224611</TD><TD>-21.08049806</TD><TD>J074055-210449</TD><TD>115.232246</TD><TD>-21.080498</TD><TD>0.112869</TD><TD>0.121158</TD><TD>8</TD><TD>2</TD><TD>0.167964</TD><TD>0.170518</TD><TD>0.301035</TD><TD>0.306530</TD><TD>0.286809</TD><TD>0.292835</TD><TD>0.319583</TD><TD>0.327278</TD><TD>0.196040</TD><TD>0.202057</TD><TD>0.155352</TD><TD>0.160734</TD><TD>0.177357</TD><TD>0.184153</TD><TD>0.166458</TD><TD>0.173561</TD><TD>0.069065</TD><TD>0.072658</TD><TD>0.130233</TD><TD>0.137721</TD><TD>0.197568</TD><TD>0.210050</TD><TD>0.129347</TD><TD>0.138136</TD><TD>0.142664</TD><TD>0.153457</TD><TD>0.095010</TD><TD>0.102834</TD><TD>0.108904</TD><TD>0.118610</TD><TD>0.113112</TD><TD>0.123737</TD><TD>0.133143</TD><TD>0.146622</TD><TD>0.099388</TD><TD>0.110148</TD><TD>0.093745</TD><TD>0.104621</TD><TD>0.079594</TD><TD>0.089298</TD><TD>-1.025992</TD><TD>0.121835</TD></TR>
+<TR><TD>110.94518306</TD><TD>-22.73074889</TD><TD>J072346-224350</TD><TD>110.945183</TD><TD>-22.730749</TD><TD>0.055484</TD><TD>0.051640</TD><TD>8</TD><TD>2</TD><TD>0.197197</TD><TD>0.194520</TD><TD>0.197449</TD><TD>0.194188</TD><TD>-0.018484</TD><TD>-0.018134</TD><TD>0.142866</TD><TD>0.139758</TD><TD>0.000962</TD><TD>0.000935</TD><TD>0.032843</TD><TD>0.031802</TD><TD>0.125219</TD><TD>0.120827</TD><TD>0.110400</TD><TD>0.106129</TD><TD>0.082511</TD><TD>0.078564</TD><TD>0.054384</TD><TD>0.051519</TD><TD>0.058683</TD><TD>0.055296</TD><TD>0.057295</TD><TD>0.053736</TD><TD>0.085672</TD><TD>0.079758</TD><TD>0.047459</TD><TD>0.043882</TD><TD>0.052356</TD><TD>0.048123</TD><TD>0.069312</TD><TD>0.063364</TD><TD>0.059341</TD><TD>0.053860</TD><TD>0.042896</TD><TD>0.038692</TD><TD>0.034671</TD><TD>0.031024</TD><TD>0.076792</TD><TD>0.068306</TD><TD></TD><TD></TD></TR>
+<TR><TD>108.29044306</TD><TD>-23.67631500</TD><TD>J071309-234034</TD><TD>108.290443</TD><TD>-23.676315</TD><TD>0.043930</TD><TD>0.042820</TD><TD>8</TD><TD>2</TD><TD>-0.026176</TD><TD>-0.026049</TD><TD>0.039987</TD><TD>0.039750</TD><TD>0.124105</TD><TD>0.123252</TD><TD>-0.035429</TD><TD>-0.035145</TD><TD>0.132780</TD><TD>0.131472</TD><TD>0.013958</TD><TD>0.013801</TD><TD>0.082924</TD><TD>0.081889</TD><TD>0.040471</TD><TD>0.039911</TD><TD>0.029147</TD><TD>0.028650</TD><TD>0.063830</TD><TD>0.062633</TD><TD>0.082835</TD><TD>0.081146</TD><TD>0.072475</TD><TD>0.070876</TD><TD>0.073993</TD><TD>0.072161</TD><TD>0.053887</TD><TD>0.052440</TD><TD>0.039276</TD><TD>0.038142</TD><TD>0.036518</TD><TD>0.035393</TD><TD>0.019071</TD><TD>0.018434</TD><TD>0.057293</TD><TD>0.055268</TD><TD>0.043987</TD><TD>0.042329</TD><TD>0.043471</TD><TD>0.041753</TD><TD></TD><TD></TD></TR>
+<TR><TD>107.89156306</TD><TD>-23.81196194</TD><TD>J071133-234843</TD><TD>107.891563</TD><TD>-23.811962</TD><TD>0.063762</TD><TD>0.058248</TD><TD>8</TD><TD>2</TD><TD>0.158061</TD><TD>0.155311</TD><TD>0.069528</TD><TD>0.068038</TD><TD>0.088628</TD><TD>0.086409</TD><TD>0.124190</TD><TD>0.120646</TD><TD>0.104944</TD><TD>0.101243</TD><TD>0.041317</TD><TD>0.039663</TD><TD>0.002414</TD><TD>0.002306</TD><TD>0.061269</TD><TD>0.058241</TD><TD>0.095543</TD><TD>0.089760</TD><TD>0.097754</TD><TD>0.091266</TD><TD>0.049592</TD><TD>0.046007</TD><TD>0.116925</TD><TD>0.107759</TD><TD>0.040007</TD><TD>0.036561</TD><TD>0.089005</TD><TD>0.080729</TD><TD>0.066569</TD><TD>0.059933</TD><TD>0.057529</TD><TD>0.051369</TD><TD>0.054249</TD><TD>0.048012</TD><TD>0.058361</TD><TD>0.051246</TD><TD>0.086314</TD><TD>0.075023</TD><TD>0.064553</TD><TD>0.055717</TD><TD>-0.705203</TD><TD>0.065488</TD></TR>
+<TR><TD>105.53160111</TD><TD>-24.61891889</TD><TD>J070207-243708</TD><TD>105.531601</TD><TD>-24.618919</TD><TD>0.032746</TD><TD>0.034437</TD><TD>8</TD><TD>2</TD><TD>0.061854</TD><TD>0.062504</TD><TD>0.105653</TD><TD>0.107012</TD><TD>0.067524</TD><TD>0.068522</TD><TD>0.099839</TD><TD>0.101514</TD><TD>0.110390</TD><TD>0.112719</TD><TD>0.073554</TD><TD>0.075319</TD><TD>0.032692</TD><TD>0.033562</TD><TD>0.062316</TD><TD>0.064151</TD><TD>0.063203</TD><TD>0.065495</TD><TD>0.035193</TD><TD>0.036593</TD><TD>0.042063</TD><TD>0.043887</TD><TD>0.054357</TD><TD>0.056908</TD><TD>0.053376</TD><TD>0.056130</TD><TD>0.017891</TD><TD>0.018885</TD><TD>0.034449</TD><TD>0.036504</TD><TD>0.032115</TD><TD>0.034163</TD><TD>0.057937</TD><TD>0.061919</TD><TD>0.017726</TD><TD>0.019026</TD><TD>0.015761</TD><TD>0.016988</TD><TD>0.031774</TD><TD>0.034382</TD><TD>-1.100751</TD><TD>0.042705</TD></TR>
+<TR><TD>105.43414306</TD><TD>-24.63959306</TD><TD>J070144-243822</TD><TD>105.434143</TD><TD>-24.639593</TD><TD>0.068914</TD><TD>0.072508</TD><TD>8</TD><TD>2</TD><TD>0.253673</TD><TD>0.256519</TD><TD>0.243523</TD><TD>0.246914</TD><TD>0.069804</TD><TD>0.070908</TD><TD>0.156599</TD><TD>0.159360</TD><TD>0.007050</TD><TD>0.007216</TD><TD>0.114668</TD><TD>0.117736</TD><TD>0.152935</TD><TD>0.157366</TD><TD>0.093055</TD><TD>0.096018</TD><TD>0.059895</TD><TD>0.062238</TD><TD>0.090545</TD><TD>0.094366</TD><TD>0.101997</TD><TD>0.106647</TD><TD>0.115075</TD><TD>0.120646</TD><TD>0.069348</TD><TD>0.073021</TD><TD>0.076188</TD><TD>0.080460</TD><TD>0.071216</TD><TD>0.075447</TD><TD>0.058424</TD><TD>0.062054</TD><TD>0.069916</TD><TD>0.074528</TD><TD>0.076918</TD><TD>0.082242</TD><TD>0.060713</TD><TD>0.065105</TD><TD>0.054395</TD><TD>0.058482</TD><TD>-1.184492</TD><TD>0.074845</TD></TR>
+<TR><TD>117.00106000</TD><TD>-20.36449806</TD><TD>J074800-202152</TD><TD>117.001060</TD><TD>-20.364498</TD><TD>0.046341</TD><TD>0.066424</TD><TD>8</TD><TD>2</TD><TD>0.128544</TD><TD>0.139727</TD><TD>0.093144</TD><TD>0.102976</TD><TD>-0.079282</TD><TD>-0.089045</TD><TD>-0.017526</TD><TD>-0.019982</TD><TD>0.032719</TD><TD>0.038556</TD><TD>0.089779</TD><TD>0.107735</TD><TD>0.084697</TD><TD>0.103643</TD><TD>0.101998</TD><TD>0.127544</TD><TD>0.002629</TD><TD>0.003426</TD><TD>0.079050</TD><TD>0.105620</TD><TD>0.059024</TD><TD>0.080939</TD><TD>0.058708</TD><TD>0.082091</TD><TD>0.025848</TD><TD>0.037291</TD><TD>0.058760</TD><TD>0.086827</TD><TD>0.046834</TD><TD>0.071066</TD><TD>0.036051</TD><TD>0.055680</TD><TD>0.027054</TD><TD>0.043034</TD><TD>0.044008</TD><TD>0.071843</TD><TD>0.040472</TD><TD>0.067901</TD><TD>0.037378</TD><TD>0.063942</TD><TD></TD><TD></TD></TR>
+<TR><TD>106.45662694</TD><TD>-24.27759889</TD><TD>J070549-241639</TD><TD>106.456627</TD><TD>-24.277599</TD><TD>0.124810</TD><TD>0.125683</TD><TD>8</TD><TD>2</TD><TD>0.176961</TD><TD>0.177275</TD><TD>0.174455</TD><TD>0.174814</TD><TD>0.188834</TD><TD>0.189278</TD><TD>0.232219</TD><TD>0.232829</TD><TD>0.200830</TD><TD>0.201436</TD><TD>0.182532</TD><TD>0.183158</TD><TD>0.142353</TD><TD>0.142897</TD><TD>0.179914</TD><TD>0.180668</TD><TD>0.153343</TD><TD>0.154110</TD><TD>0.138971</TD><TD>0.139737</TD><TD>0.167441</TD><TD>0.168443</TD><TD>0.165752</TD><TD>0.166825</TD><TD>0.125784</TD><TD>0.126676</TD><TD>0.127958</TD><TD>0.128940</TD><TD>0.141882</TD><TD>0.143045</TD><TD>0.142795</TD><TD>0.144051</TD><TD>0.114518</TD><TD>0.115604</TD><TD>0.134326</TD><TD>0.135674</TD><TD>0.090069</TD><TD>0.091043</TD><TD>0.115276</TD><TD>0.116579</TD><TD>-0.636295</TD><TD>0.128984</TD></TR>
+<TR><TD>106.16010306</TD><TD>-24.38570000</TD><TD>J070438-242308</TD><TD>106.160103</TD><TD>-24.385700</TD><TD>0.049358</TD><TD>0.055465</TD><TD>8</TD><TD>2</TD><TD>-0.077646</TD><TD>-0.079594</TD><TD>0.142155</TD><TD>0.146536</TD><TD>-0.034168</TD><TD>-0.035393</TD><TD>0.130166</TD><TD>0.135470</TD><TD>0.060359</TD><TD>0.063434</TD><TD>0.053682</TD><TD>0.056787</TD><TD>0.033088</TD><TD>0.035214</TD><TD>0.047469</TD><TD>0.050841</TD><TD>0.035151</TD><TD>0.038214</TD><TD>0.043023</TD><TD>0.047124</TD><TD>0.023856</TD><TD>0.026333</TD><TD>0.069133</TD><TD>0.076905</TD><TD>0.058965</TD><TD>0.066249</TD><TD>0.071477</TD><TD>0.080984</TD><TD>0.044366</TD><TD>0.050687</TD><TD>0.057700</TD><TD>0.066511</TD><TD>0.007974</TD><TD>0.009279</TD><TD>0.040383</TD><TD>0.047383</TD><TD>0.048047</TD><TD>0.056976</TD><TD>0.055285</TD><TD>0.066028</TD><TD></TD><TD></TD></TR>
+<TR><TD>121.94360389</TD><TD>-18.24376889</TD><TD>J080746-181437</TD><TD>121.943604</TD><TD>-18.243769</TD><TD>0.127332</TD><TD>0.119705</TD><TD>8</TD><TD>2</TD><TD>0.473249</TD><TD>0.467971</TD><TD>0.152979</TD><TD>0.152795</TD><TD>0.096531</TD><TD>0.096174</TD><TD>0.276085</TD><TD>0.273087</TD><TD>0.246083</TD><TD>0.240497</TD><TD>0.082268</TD><TD>0.080092</TD><TD>0.100385</TD><TD>0.098427</TD><TD>0.270077</TD><TD>0.264036</TD><TD>0.068692</TD><TD>0.065936</TD><TD>0.105180</TD><TD>0.100463</TD><TD>0.151630</TD><TD>0.144144</TD><TD>0.141962</TD><TD>0.138502</TD><TD>0.142967</TD><TD>0.135937</TD><TD>0.116285</TD><TD>0.108833</TD><TD>0.125261</TD><TD>0.116642</TD><TD>0.103182</TD><TD>0.095632</TD><TD>0.184417</TD><TD>0.169770</TD><TD>0.101913</TD><TD>0.096647</TD><TD>0.083387</TD><TD>0.078327</TD><TD>0.168278</TD><TD>0.153414</TD><TD>-0.959025</TD><TD>0.127519</TD></TR>
+<TR><TD>117.67353111</TD><TD>-20.06708111</TD><TD>J075041-200401</TD><TD>117.673531</TD><TD>-20.067081</TD><TD>0.111768</TD><TD>0.106449</TD><TD>8</TD><TD>2</TD><TD>0.586704</TD><TD>0.581217</TD><TD>0.216396</TD><TD>0.213930</TD><TD>0.261496</TD><TD>0.258007</TD><TD>0.128618</TD><TD>0.126660</TD><TD>0.170971</TD><TD>0.167636</TD><TD>0.213158</TD><TD>0.208479</TD><TD>0.164572</TD><TD>0.160544</TD><TD>0.179365</TD><TD>0.174439</TD><TD>0.173406</TD><TD>0.167627</TD><TD>0.164523</TD><TD>0.158431</TD><TD>0.159800</TD><TD>0.153270</TD><TD>0.108853</TD><TD>0.104080</TD><TD>0.136868</TD><TD>0.130189</TD><TD>0.094604</TD><TD>0.089617</TD><TD>0.118245</TD><TD>0.111496</TD><TD>0.104542</TD><TD>0.098262</TD><TD>0.118563</TD><TD>0.110839</TD><TD>0.119053</TD><TD>0.110755</TD><TD>0.083466</TD><TD>0.077232</TD><TD>0.099018</TD><TD>0.091254</TD><TD>-1.377866</TD><TD>0.102311</TD></TR>
+<TR><TD>114.97322111</TD><TD>-21.13157111</TD><TD>J073953-210753</TD><TD>114.973221</TD><TD>-21.131571</TD><TD>0.174894</TD><TD>0.158108</TD><TD>8</TD><TD>2</TD><TD>0.262126</TD><TD>0.257178</TD><TD>0.390352</TD><TD>0.381405</TD><TD>0.319494</TD><TD>0.310946</TD><TD>0.262117</TD><TD>0.254067</TD><TD>0.285600</TD><TD>0.274195</TD><TD>0.187165</TD><TD>0.178665</TD><TD>0.235897</TD><TD>0.224075</TD><TD>0.276401</TD><TD>0.260992</TD><TD>0.240768</TD><TD>0.224301</TD><TD>0.208286</TD><TD>0.192533</TD><TD>0.199688</TD><TD>0.183088</TD><TD>0.161985</TD><TD>0.147473</TD><TD>0.160046</TD><TD>0.144072</TD><TD>0.189363</TD><TD>0.168780</TD><TD>0.183877</TD><TD>0.162225</TD><TD>0.161644</TD><TD>0.141614</TD><TD>0.145082</TD><TD>0.125789</TD><TD>0.179708</TD><TD>0.154078</TD><TD>0.177801</TD><TD>0.150664</TD><TD>0.165706</TD><TD>0.139088</TD><TD>-0.875159</TD><TD>0.150577</TD></TR>
+<TR><TD>114.92562889</TD><TD>-21.16752389</TD><TD>J073942-211003</TD><TD>114.925629</TD><TD>-21.167524</TD><TD>0.101125</TD><TD>0.112010</TD><TD>8</TD><TD>2</TD><TD>0.129983</TD><TD>0.132857</TD><TD>0.181110</TD><TD>0.185926</TD><TD>0.275960</TD><TD>0.284444</TD><TD>0.123684</TD><TD>0.128036</TD><TD>0.115973</TD><TD>0.121217</TD><TD>0.204073</TD><TD>0.214515</TD><TD>0.066191</TD><TD>0.069931</TD><TD>0.128126</TD><TD>0.136179</TD><TD>0.135866</TD><TD>0.146299</TD><TD>0.143257</TD><TD>0.155409</TD><TD>0.099658</TD><TD>0.108945</TD><TD>0.069285</TD><TD>0.076232</TD><TD>0.088669</TD><TD>0.098565</TD><TD>0.104632</TD><TD>0.117341</TD><TD>0.082488</TD><TD>0.093331</TD><TD>0.097157</TD><TD>0.110602</TD><TD>0.107660</TD><TD>0.123681</TD><TD>0.110971</TD><TD>0.128645</TD><TD>0.081485</TD><TD>0.095380</TD><TD>0.071754</TD><TD>0.084617</TD><TD>-0.783276</TD><TD>0.108569</TD></TR>
+<TR><TD>121.47033694</TD><TD>-18.44282500</TD><TD>J080552-182634</TD><TD>121.470337</TD><TD>-18.442825</TD><TD>0.053139</TD><TD>0.085888</TD><TD>8</TD><TD>2</TD><TD>0.152830</TD><TD>0.171159</TD><TD>0.013723</TD><TD>0.015734</TD><TD>-0.001715</TD><TD>-0.002005</TD><TD>0.133218</TD><TD>0.158908</TD><TD>0.023091</TD><TD>0.028791</TD><TD>0.042876</TD><TD>0.054808</TD><TD>0.031759</TD><TD>0.041632</TD><TD>0.019298</TD><TD>0.025983</TD><TD>0.013678</TD><TD>0.019397</TD><TD>0.079220</TD><TD>0.116211</TD><TD>-0.002363</TD><TD>-0.003576</TD><TD>0.093628</TD><TD>0.145290</TD><TD>0.082306</TD><TD>0.132694</TD><TD>0.029064</TD><TD>0.048356</TD><TD>-0.003133</TD><TD>-0.005364</TD><TD>0.085058</TD><TD>0.149374</TD><TD>0.047708</TD><TD>0.086816</TD><TD>0.039324</TD><TD>0.073415</TD><TD>0.041661</TD><TD>0.080501</TD><TD>0.049109</TD><TD>0.097330</TD><TD></TD><TD></TD></TR>
+<TR><TD>123.90892806</TD><TD>-17.34082806</TD><TD>J081538-172026</TD><TD>123.908928</TD><TD>-17.340828</TD><TD>0.216100</TD><TD>0.217115</TD><TD>8</TD><TD>2</TD><TD>0.773524</TD><TD>0.775204</TD><TD>0.746985</TD><TD>0.748566</TD><TD>0.584821</TD><TD>0.586321</TD><TD>0.585197</TD><TD>0.586781</TD><TD>0.655815</TD><TD>0.657471</TD><TD>0.327776</TD><TD>0.328664</TD><TD>0.412881</TD><TD>0.413893</TD><TD>0.449287</TD><TD>0.450395</TD><TD>0.413509</TD><TD>0.414686</TD><TD>0.255027</TD><TD>0.255625</TD><TD>0.224815</TD><TD>0.225444</TD><TD>0.273446</TD><TD>0.274403</TD><TD>0.310905</TD><TD>0.311864</TD><TD>0.261855</TD><TD>0.262680</TD><TD>0.221893</TD><TD>0.222633</TD><TD>0.172804</TD><TD>0.173372</TD><TD>0.186568</TD><TD>0.187358</TD><TD>0.224298</TD><TD>0.225216</TD><TD>0.186589</TD><TD>0.187343</TD><TD>0.199891</TD><TD>0.200615</TD><TD>-1.419267</TD><TD>0.218410</TD></TR>
+<TR><TD>115.92999306</TD><TD>-20.74906694</TD><TD>J074343-204456</TD><TD>115.929993</TD><TD>-20.749067</TD><TD>0.148186</TD><TD>0.139167</TD><TD>8</TD><TD>2</TD><TD>0.318604</TD><TD>0.314986</TD><TD>0.365731</TD><TD>0.360663</TD><TD>0.205577</TD><TD>0.202174</TD><TD>0.169584</TD><TD>0.166390</TD><TD>0.177535</TD><TD>0.172967</TD><TD>0.183462</TD><TD>0.178012</TD><TD>0.175715</TD><TD>0.169996</TD><TD>0.255878</TD><TD>0.246668</TD><TD>0.219760</TD><TD>0.209866</TD><TD>0.218742</TD><TD>0.207844</TD><TD>0.192732</TD><TD>0.182152</TD><TD>0.136279</TD><TD>0.128168</TD><TD>0.154481</TD><TD>0.144199</TD><TD>0.150114</TD><TD>0.139199</TD><TD>0.160190</TD><TD>0.147502</TD><TD>0.155735</TD><TD>0.142794</TD><TD>0.150204</TD><TD>0.136945</TD><TD>0.131223</TD><TD>0.118664</TD><TD>0.119800</TD><TD>0.107519</TD><TD>0.127247</TD><TD>0.113432</TD><TD>-0.992225</TD><TD>0.133596</TD></TR>
+</TABLEDATA></DATA>
+</TABLE>
+<INFO name="matches" value="50">matching records</INFO>
+
+<INFO name="Warning" value="No center provided++++"/>
+<INFO name="Warning" value="increase the precision for computed column 9"/>
+<INFO name="Warning" value="increase the precision for computed column 9"/>
+<INFO name="Warning" value="+++No column for LINK to a row in table: VIII/102/gleamgal"/>
+<INFO name="Warning" value="truncated result (maxtup=50)"/><INFO name="QUERY_STATUS" value="OVERFLOW">truncated result (maxtup=50)</INFO>
+
+</RESOURCE>
+</VOTABLE>
